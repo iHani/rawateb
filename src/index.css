@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+  margin-bottom: 3px !important;
+}
+
+.item:first-child {
+  border-radius: 0 !important;
+}
+
+.item {
+  text-align: right !important;
+}
+
+.ui.dropdown {
+  text-align: right !important;
+}
+
+.ui.text.container {
+  max-width: 600px !important;
+}
