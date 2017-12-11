@@ -112,6 +112,15 @@ const value_7_data = [
   { key: 5, value: 5, text: 'المستوى السادس', degrees: 20, first_salary: 9260, annual_increase: 510 }
 ]
 
+const value_8_data = ''
+const value_9_data = ''
+const value_10_data = ''
+const value_11_data = ''
+const value_12_data = ''
+const value_13_data = ''
+const value_14_data = ''
+const value_15_data = ''
+const value_16_data = ''
 // الشورى
 const value_17_data = { salary: 22483 }
 
@@ -128,7 +137,9 @@ const Salalem = [
     value: 1,
     text: 'الممارسين الصحيين',
     data: value_1_data,
-    template: 'SollamOnly'
+    template: 'TitleLevelDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 2,
@@ -141,7 +152,9 @@ const Salalem = [
   {
     value: 3,
     text: 'الخويا والمجاهدين',
-    template: 'TitleOnly'
+    data: value_3_data,
+    template: 'TitleOnly',
+    title_text: 'المرتبة'
   },
   {
     value: 4,
@@ -170,56 +183,85 @@ const Salalem = [
   {
     value: 7,
     text: 'الوظائف التعليمية',
-    template: 'TitleDegree'
+    data: value_7_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 8,
     text: 'الوظائف الدبلوماسية',
-    template: ''
+    data: value_8_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 9,
     text: 'الوظائف الصحية',
-    template: ''
+    data: value_9_data,
+    template: 'TitleLevelDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 10,
     text: 'كسوة الكعبة المشرفة',
-    template: ''
+    data: value_10_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 11,
     text: 'أعضاء هيئة النظر',
-    template: ''
+    data: value_11_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 12,
     text: 'الأئمة والمؤذنين وخدم المساجد',
-    template: ''
+    data: value_12_data,
+    template: 'TitleOnly',
+    title_text: 'المرتبة'
   },
   {
     value: 13,
     text: 'كهرباء الناصرية - متخصصين وإداريين',
-    template: ''
+    data: value_13_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 14,
     text: 'كهرباء الناصرية - عمال إدارة الكهرباء',
-    template: ''
+    data: value_14_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 15,
     text: 'هيئة التحقيق والإدعاء العام',
-    template: ''
+    data: value_15_data,
+    template: 'TitleDegree',
+    title_text: 'المرتبة',
+    degree_text: 'الدرجة'
   },
   {
     value: 16,
     text: 'الوزراء ونوابهم والمرتبة الممتازة',
-    template: ''
+    data: value_16_data,
+    template: 'TitleOnly',
+    title_text: 'المرتبة'
   },
   {
     value: 17,
     text: 'أعضاء مجلس الشورى',
+    data: value_17_data,
     template: 'SollamOnly'
   }
 ]

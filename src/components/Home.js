@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <Container style={{ padding: '5em 0em' }}>
+      <Container style={{ padding: '4em 0em' }}>
         <RawatebApp />
       </Container>
     )

@@ -1,8 +1,10 @@
 import React from 'react'
 import { Container, Dropdown, Header, Segment } from 'semantic-ui-react'
 import Salalem from '../data/Salalem'
-import TitleDegree from './TitleDegree'
 import SollamOnly from './SollamOnly'
+import TitleOnly from './TitleOnly'
+import TitleDegree from './TitleDegree'
+import TitleLevelDegree from './TitleLevelDegree'
 
 export default class RawatebApp extends React.Component {
 
@@ -12,22 +14,22 @@ export default class RawatebApp extends React.Component {
 
   handleOnChangeSollam = (e, data) => {
     const details = Salalem[data.value]
-    const template = Salalem[data.value].template
 
-    switch (template) {
-      case 'TitleDegree':
-      this.setState(() => ({ template: <TitleDegree details={details} /> }))
-      break;
-
+    switch (Salalem[data.value].template) {
       case 'SollamOnly':
       this.setState(() => ({ template: <SollamOnly details={details} /> }))
       break;
 
-      case 'expression1':
-
+      case 'TitleOnly':
+      this.setState(() => ({ template: <TitleOnly details={details} /> }))
       break;
 
-      case 'expression2':
+      case 'TitleDegree':
+      this.setState(() => ({ template: <TitleDegree details={details} /> }))
+      break;
+
+      case 'TitleLevelDegree':
+      this.setState(() => ({ template: <TitleLevelDegree details={details} /> }))
 
       break;
       default:
