@@ -38,14 +38,12 @@ export default class TitleLevelDegree extends React.Component {
     handleClickLevel(e, data) {
       const first_salary = data.first_salary
       const annual_increase = data.annual_increase
-      console.log(data);
       const current_level_text = data.children
       const degreesLength = data.degrees
       const degrees = []
       for (var i = 0; i < degreesLength; i++) {
         degrees.push(<Button circular compact key={i} size='mini' index={i+1} onClick={this.handleClickDegree.bind(this)}>{i+1}</Button>)
       }
-      console.log(data);
       this.setState({
         current_level_text,
         degrees,
@@ -61,7 +59,6 @@ export default class TitleLevelDegree extends React.Component {
     }
 
     componentWillReceiveProps(props, newprops) {
-// console.log(props);
       const titles = props.details.data.map((title, index) => (
         <Button key={index} compact size='small' index={index+1} data={props.details.data} onClick={this.handleClickTitle.bind(this)}>{title.text}</Button>
       ))

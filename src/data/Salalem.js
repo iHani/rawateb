@@ -142,9 +142,16 @@ const value_12_data = ''
 const value_13_data = ''
 const value_14_data = ''
 const value_15_data = ''
-const value_16_data = ''
+
+// الوزراء
+const value_16_data =  [
+  { key: 0, value: 0, text: 'وزير ومن في مرتبته', salary: 41400 },
+  { key: 2, value: 1, text: 'نائب الوزير', salary: 34500 },
+  { key: 2, value: 2, text: 'المرتبة الممتازة', salary: 34500 }
+]
+
 // الشورى
-const value_17_data = { salary: 22483 }
+const value_17_data = { text: 'المكافأة الشهرية لعضو مجلس الشورى', salary: 22483 }
 
 const Salalem = [
   {

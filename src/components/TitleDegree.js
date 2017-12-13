@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Segment, Table } from 'semantic-ui-react'
+import { Button, Header, Segment, Table } from 'semantic-ui-react'
 
 export default class TitleDegree extends React.Component {
 
@@ -46,9 +46,11 @@ export default class TitleDegree extends React.Component {
     return (
       <div>
         <div className="centered">
-          <h3>سلم رواتب {this.props.details.text}</h3>
+          <Header as='h3' attached='top'>
+            سلم رواتب {this.props.details.text}
+          </Header>
 
-          <Segment textAlign='right'>
+          <Segment textAlign='right' attached='bottom'>
             <p>
               {this.props.details.title_text}
               {titles}
