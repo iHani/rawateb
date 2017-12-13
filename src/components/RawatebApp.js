@@ -40,7 +40,7 @@ export default class RawatebApp extends React.Component {
 
   render() {
     return (
-      <Container text>
+      <Container text style={{ padding: '4em 0em' }}>
         <Header as='h3' attached='top' block>برنامج سلم رواتب موظفي الخدمة المدنية</Header>
         <Segment attached>
           <Dropdown placeholder='اختر السلم'

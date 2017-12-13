@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Home from './components/Home.js'
+import RawatebApp from './components/RawatebApp'
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <RawatebApp />
       </div>
     );
   }

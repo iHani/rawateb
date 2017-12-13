@@ -26,23 +26,23 @@ export default class TitleOnly extends React.Component {
 
   componentWillReceiveProps(props, newprops) {
     const titles_salaries = props.details.data.map((row, index) => {
-          return (
-            <Table.Row key={index}>
-              <Table.Cell>
-                <Grid>
-                  <Grid.Row columns={2}>
-                    <Grid.Column textAlign='left'>
-                      {row.text}
-                    </Grid.Column>
-                    <Grid.Column textAlign='right'>
-                      {row.salary}
-                    </Grid.Column>
-                  </Grid.Row>
-                </Grid>
-              </Table.Cell>
-            </Table.Row>
-          )
-        })
+      return (
+        <Table.Row key={index}>
+          <Table.Cell>
+            <Grid>
+              <Grid.Row columns={2}>
+                <Grid.Column textAlign='left'>
+                  {row.text}
+                </Grid.Column>
+                <Grid.Column textAlign='right'>
+                  {row.salary}
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </Table.Cell>
+        </Table.Row>
+      )
+    })
     this.setState({ titles_salaries })
   }
 
