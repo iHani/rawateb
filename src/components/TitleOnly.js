@@ -48,15 +48,19 @@ export default class TitleOnly extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="centered">
-          <h3>سلم رواتب {this.props.details.text}</h3>
-          <Table celled compact striped>
-            <Table.Body>
-              {this.state.titles_salaries}
-            </Table.Body>
-          </Table>
-        </div>
+      <div className="centered">
+        <Table celled compact striped>
+          <Table.Header fullWidth>
+            <Table.Row>
+              <Table.HeaderCell textAlign='center'>
+                <h3>سلم رواتب {this.props.details.text}</h3>
+              </Table.HeaderCell>
+            </Table.Row>
+          </Table.Header>
+          <Table.Body>
+            {this.state.titles_salaries}
+          </Table.Body>
+        </Table>
       </div>
     )
   }
