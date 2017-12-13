@@ -22,7 +22,7 @@ export default class TitleDegree extends React.Component {
     for (var i = 0; i < degreesLength; i++) {
       degrees.push(<Button circular compact key={i} size='mini' index={i+1} onClick={this.handleClickDegree.bind(this)}>{i+1}</Button>)
     }
-    this.setState({ current_title_text, current_title_index, degrees })
+    this.setState({ current_title_text, current_title_index, degrees, current_degree_index: 1 })
   }
 
   handleClickDegree(e, data) {
