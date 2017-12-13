@@ -138,7 +138,8 @@ const Salalem = [
     text: 'الممارسين الصحيين',
     data: value_1_data,
     template: 'TitleLevelDegree',
-    title_text: 'المرتبة',
+    title_text: 'الفئة',
+    level_text: 'المستوى',
     degree_text: 'الدرجة'
   },
   {
@@ -201,7 +202,8 @@ const Salalem = [
     text: 'الوظائف الصحية',
     data: value_9_data,
     template: 'TitleLevelDegree',
-    title_text: 'المرتبة',
+    title_text: 'الفئة',
+    level_text: 'المستوى',
     degree_text: 'الدرجة'
   },
   {
