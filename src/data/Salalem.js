@@ -113,7 +113,29 @@ const value_7_data = [
 ]
 
 const value_8_data = ''
-const value_9_data = ''
+
+// الوظائف الصحية
+const value_9_data = [
+  { key: 0, value: 0, text: 'Doctors 222', levels: [
+    { key: 0, value: 0, text: 'Level 1', degrees: 4, first_salary: 14950, annual_increase: 690 },
+    { key: 1, value: 1, text: 'Level 2', degrees: 4, first_salary: 17710, annual_increase: 765 },
+    { key: 2, value: 2, text: 'Level 3', degrees: 4, first_salary: 20770, annual_increase: 830 },
+    { key: 3, value: 3, text: 'Level 4', degrees: 4, first_salary: 24090, annual_increase: 900 },
+    { key: 4, value: 4, text: 'Level 5', degrees: 4, first_salary: 27690, annual_increase: 970 },
+    { key: 5, value: 5, text: 'Level 6', degrees: 4, first_salary: 31570, annual_increase: 1035 },
+    { key: 6, value: 6, text: 'Level 7', degrees: 4, first_salary: 35740, annual_increase: 1110 },
+  ] },
+  { key: 1, value: 1, text: 'Doctors Naeeb 222', levels: [
+    { key: 0, value: 0, text: 'Level 1', degrees: 4, first_salary: 11190, annual_increase: 555 },
+    { key: 1, value: 1, text: 'Level 2', degrees: 4, first_salary: 13410, annual_increase: 620 },
+    { key: 2, value: 2, text: 'Level 3', degrees: 4, first_salary: 15890, annual_increase: 680 },
+    { key: 3, value: 3, text: 'Level 4', degrees: 4, first_salary: 18610, annual_increase: 745 },
+    { key: 4, value: 4, text: 'Level 5', degrees: 4, first_salary: 21590, annual_increase: 800 },
+    { key: 5, value: 5, text: 'Level 6', degrees: 4, first_salary: 24790, annual_increase: 865 },
+    { key: 6, value: 6, text: 'Level 7', degrees: 4, first_salary: 28250, annual_increase: 930 },
+  ] }
+]
+
 const value_10_data = ''
 const value_11_data = ''
 const value_12_data = ''
