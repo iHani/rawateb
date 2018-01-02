@@ -360,7 +360,7 @@ const value_13_data = [
   { key: 10, value: 10, text: 51, degrees: 15, first_salary: 14670, annual_increase: 690 },
   { key: 11, value: 11, text: 52, degrees: 14, first_salary: 15990, annual_increase: 715 },
   { key: 12, value: 12, text: 53, degrees: 13, first_salary: 17315, annual_increase: 745 },
-  { key: 13, value: 13, text: 54, degrees: 11, first_salary: 18840, annual_increase: 840 },
+  { key: 13, value: 13, text: 54, degrees: 11, first_salary: 18840, annual_increase: 840 }
 ]
 
 // الناصرية - عمال ادارة الكهرباء
