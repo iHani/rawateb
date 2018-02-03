@@ -118,8 +118,8 @@ export default class TitleLevelDegree extends React.Component {
                 <Table.Header fullWidth>
                   <Table.Row>
                     <Table.HeaderCell textAlign='center'>
-                      {current_title_text && `${this.props.details.title_text} ${current_title_text} `}
-                      {current_level_text && `${this.props.details.level_text} ${current_level_text} `}
+                      {current_title_text && `${this.props.details.title_text} ${current_title_text}`}
+                      {current_level_text && `${this.props.details.level_text} ${current_level_text}`}
                       {current_degree_text && `${this.props.details.degree_text} ${current_degree_index}`}
                     </Table.HeaderCell>
                   </Table.Row>
